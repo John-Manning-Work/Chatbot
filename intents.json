@@ -1,0 +1,78 @@
+{"intents":  [
+  {"tag": "greetings",
+  "patterns":  ["hello", "hey", "hi", "good day", "greetings", "what's up", "how is it going"],
+  "responses":  ["Hello!", "Hey!", "What can I do for you"]
+  },
+  {"tag": "goodbye",
+  "patterns":  ["bye", "goodbye", "see you later", "goodnight", "cya", "g2g"],
+  "responses":  ["Goodbye", "Have a good day", "Bye for now"]
+  },
+  {"tag": "conversation",
+  "patterns":  ["how're you", "how is your day", "how has your day been", "you good", "are you okay"],
+  "responses":  ["I am very well! How're you", "I am good! What can i help you with"]
+  },
+   {"tag": "name",
+  "patterns":  ["what's your name", "what are you called", "could you tell me your name", "who are you", "who're you"],
+  "responses":  ["I am Death Bot V1", "My name is Death Bot V1"]
+  },
+  {"tag": "creator",
+  "patterns":  ["who created you", "what is the name of your creator"],
+  "responses":  ["My creator is John", "I was created by John"]
+  },
+  {"tag": "Qualification",
+  "patterns":  ["whats John's qualifications", "what qualifications does John possess", "could you tell me about qualifications", "What qualifications does john have"],
+  "responses":  ["John has a BSc in Computer Game Design & Technology ", "John's current qualification to this date is BSc in Computer Game Design & Technology"]
+  },
+  {"tag": "current job",
+  "patterns":  ["what's Johns current job", "where does John currently work", "what does john do for work", "what does he do"],
+  "responses":  ["Johns current job is Software Engineer for Network Communication Systems LTD: Located Doncaster"]
+  },
+  {"tag": "goals",
+  "patterns":  ["what is your goal", "what do you want to do in the future", "whats your overall goal"],
+  "responses":  ["John's goals are to move further afield into development. He is especially interested in ML and Deep learning"]
+  },
+  {"tag": "howyou",
+  "patterns":  ["i am okay", "i am good thanks", "i am well", "im okay", "i'm ok", "im very good"],
+  "responses":  ["Good to hear. What can i help you with", "Brilliant. What can i assist you with today."]
+  },
+  {"tag": "great",
+  "patterns":  ["okay", "brilliant", "thank you", "no problem"],
+  "responses":  ["Can i help with anything else"]
+  },
+  {"tag": " ",
+  "patterns":  [" "],
+  "responses":  ["I dont understand. Please try another question"]
+  },
+   {"tag": "responsability",
+  "patterns":  ["What is his day to day like", "what does he do daily", "what does his job entail", "what does he do during the day", "what does he do for them"],
+  "responses":  ["Currently his day to day is mainly Manual software testing for a warden call system newly developed by NCS. He is responsible for testing & visiting clients sites in order to install and get feedback"]
+  },
+  {"tag": "contact",
+  "patterns":  ["where can i contact", "what is the best way to contact", "do you have a mobile number to call"],
+  "responses":  ["John can be contacted via mobile & email. Mobile number: 07393309657 Email address: Jackmanningwork@hotmail.com"]
+  },
+  {"tag": "time",
+  "patterns":  ["when is the best time to contact", "what time suits best for john", "when is john avaliable"],
+  "responses":  ["Johns working hours are 8:30AM to 5:00PM. He has a break throughout the day at 12:30PM to 1:00PM. If this time doesnt work for you. He is avaliable anytime after 5:00PM for calls & emails"]
+  },
+  {"tag": "no",
+  "patterns":  ["no that is all", "no thanks", "no thank you"],
+  "responses":  ["Okay no problem: Type Goodbye to end conversation"]
+  },
+  {"tag": "john",
+  "patterns":  ["who is john", "who is that"],
+  "responses":  ["John is my creator. If you would like to know more about him please ask me questions."]
+  },
+  {"tag": "currentproject",
+  "patterns":  ["What is he working on currently", "is he working on any projects currently"],
+  "responses":  ["I'm unsure what projects he is currently working on. Please check his Github for any and all projects"]
+  },
+  {"tag": "previousproject",
+  "patterns":  ["what projects can you tell me about", "has he worked on other projects", "does john have any projects i can look at", "what other projects has he completed"],
+  "responses":  ["John has worked on a number of projects: Project1, Project2, Project3, Project4, Project5. If you want to view all of his projects please check his Github"]
+  },
+  {"tag": "github",
+  "patterns":  ["what is his github", "can you give me his github link"],
+  "responses":  ["Please take a look at his link at the following address: Github.com John-Man-QA"]
+  }
+]}
